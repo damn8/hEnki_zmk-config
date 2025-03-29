@@ -63,20 +63,32 @@
     combos {
         compatible = "zmk,combos";
             // main
-        COMBO(enter,              &kp RET,          15 16,        0)
-        COMBO(backspace,          &kp BSPC,         14 15,        0)
-        COMBO(delete,             &kp DEL,          14 16,        0)
+        COMBO(RBKT,    &kp RBKT,    1 13,     0)
+        COMBO(GRAVE,   &kp GRAVE,   13 25,    0)
+
+        //COMBO(TAB,     &kp GRAVE,   5 17,     0)
+        COMBO(BSLH,    &kp BSLH,    17 29,    0)
+        
+        COMBO(LBKT,    &kp LBKT,    10 22,    0)
+        COMBO(SQT,     &kp SQT,     22 34,    0)
+        
+        //COMBO(DEL,     &kp DEL,     6 18,     0)
+        COMBO(MINUS,   &kp MINUS,   18 30,    0)
+        
+        //COMBO(enter,              &kp RET,          15 16,        0)
+        //COMBO(backspace,          &kp BSPC,         14 15,        0)
+        //COMBO(delete,             &kp DEL,          14 16,        0)
             // game
-        COMBO(game,               &tog 6,            1 38,        0 6)
+        //COMBO(game,               &tog 6,            1 38,        0 6)
             // num
-        COMBO(num_space_l,        &kp SPACE,        15 16,        1)
-        COMBO(num_dot_l,          &kp DOT,          14 15,        1)
-        COMBO(num_comma_l,        &kp COMMA,        14 16,        1)
-        COMBO(num_space_r,        &kp SPACE,        19 20,        1)
-        COMBO(num_dot_r,          &kp DOT,          20 21,        1)
-        COMBO(num_comma_r,        &kp COMMA,        19 21,        1)
+        //COMBO(num_space_l,        &kp SPACE,        15 16,        1)
+        //COMBO(num_dot_l,          &kp DOT,          14 15,        1)
+        //COMBO(num_comma_l,        &kp COMMA,        14 16,        1)
+        //COMBO(num_space_r,        &kp SPACE,        19 20,        1)
+        //COMBO(num_dot_r,          &kp DOT,          20 21,        1)
+        //COMBO(num_comma_r,        &kp COMMA,        19 21,        1)
             // nav
-        COMBO(nav_taskv,          TASK_V,            2  4,        2)
+        //COMBO(nav_taskv,          TASK_V,            2  4,        2)
     };
 
     keymap {
