@@ -77,7 +77,7 @@
         
         COMBO(EQUAL,   &kp EQUAL,   18 30,    1)
 
-        COMBO(ChangeL, SLANG_W,     30 31,    1)
+        COMBO(ChangeL, CLANG_W,     30 31,    1)
 
     };
 
@@ -107,13 +107,13 @@
             bindings = <
         //╭──────────╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮──────────╮
         //│          │ !/!      │ @/"      │ #/№      │ $/;      │ %/%      │   │ NUM_*    │ 7        │ 8        │ 9        │ NUM_+    │          │
-            &trans     LC(N1)     LC(N2)     LC(N3)     LC(N4)     LC(N5)       &kp KP_MULTIPLY &kp N7  &kp N8     &kp N9     &kp KP_PLUS &trans
+            &trans     &kp LC(N1) &kp LC(N2) &kp LC(N3) &kp LC(N4) &kp LC(N5)   &kp KP_MULTIPLY &kp N7  &kp N8     &kp N9     &kp KP_PLUS &trans
         //├──────────├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤──────────┤
         //│          │ ^/:      │ &/?      │ */*      │ (/(      │ )/)      │   │ NUM_/    │ 4        │ 5        │ 6        │ NUM_-    │          │
-            &trans     LC(N6)     LC(N7)     LC(N8)     LC(N9)     LC(N0)       &kp KP_DIVIDE &kp N4    &kp N5     &kp N6     &kp KP_MINUS &trans
+            &trans     &kp LC(N6) &kp LC(N7) &kp LC(N8) &kp LC(N9) &kp LC(N0)   &kp KP_DIVIDE &kp N4    &kp N5     &kp N6     &kp KP_MINUS &trans
         //├──────────├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤──────────┤
         //│          │ F1       │ F2       │ F5       │ F11      │Shift+F11 │   │ 0        │ 1        │ 2        │ 3        │ NUM_.    │          │
-            &trans     &kp F1     &kp F2     &kp F5     &kp F11    LC(F11)        &kp N0     &kp N1     &kp N2     &kp N4     &kp KP_DOT &trans
+            &trans     &kp F1     &kp F2     &kp F5     &kp F11   &kp LC(F11)     &kp N0     &kp N1     &kp N2     &kp N4     &kp KP_DOT &trans
         //╰──────────╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯──────────╯
                                              &trans     &trans     &trans         &trans     &trans     &trans
         //                                 ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────╯
