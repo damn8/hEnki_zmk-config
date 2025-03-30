@@ -65,17 +65,15 @@
     combos {
         compatible = "zmk,combos";
     
-        COMBO(RBKT,    &kp RBKT,    1 13,     0)
-        COMBO(GRAVE,   &kp GRAVE,   13 25,    0)
-
-        COMBO(BSLH,    &kp BSLH,    17 29,    0)
+        COMBO(RBKT,    &kp RBKT,    1 2,     0)
+        COMBO(GRAVE,   &kp GRAVE,   13 14,    0)
+        COMBO(BSLH,    &kp BSLH,    25 26,    0)
         
-        COMBO(LBKT,    &kp LBKT,    10 22,    0)
-        COMBO(SQT,     &kp SQT,     22 34,    0)
+        COMBO(LBKT,    &kp LBKT,    9 10,    0)
+        COMBO(SQT,     &kp SQT,     21 22,    0)
+        COMBO(MINUS,   &kp MINUS,   33 34,    0)
         
-        COMBO(MINUS,   &kp MINUS,   18 30,    0)
-        
-        COMBO(EQUAL,   &kp EQUAL,   18 30,    1)
+        COMBO(EQUAL,   &kp EQUAL,   18 19,    1)
 
         COMBO(ChangeL, CLANG_W,     30 31,    1)
 
