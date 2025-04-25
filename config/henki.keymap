@@ -128,7 +128,8 @@
             &trans   &kp KP_MULTIPLY &kp N7  &kp N8     &kp N9     &kp KP_PLUS  &msc SCRL_UP &kp HOME   &kp C_PLAY &kp PG_UP &kp C_VOL_UP &trans
         //├──────────├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤──────────┤
         //│          │ NUM_/    │ 4        │ 5        │ 6        │ NUM_-    │   │ LEFT     │ DOWN     │ UP       │ RIGHT    │ C_VOL_DN │          │
-            &trans   &kp KP_DIVIDE &kp N4    &kp N5     &kp N6     &kp KP_MINUS   &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT &kp C_VOL_DN &trans
+        //    &trans   &kp KP_DIVIDE &kp N4    &kp N5     &kp N6     &kp KP_MINUS   &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT &kp C_VOL_DN &trans
+&trans   &mt LSHIFT KP_DIVIDE &mt LGUI N4    &mt LALT N5     &mt LCTRL N6     &kp KP_MINUS   &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT &kp C_VOL_DN &trans
         //├──────────├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤──────────┤
         //│          │ 0        │ 1        │ 2        │ 3        │ NUM_.    │   │ SCRL_DOWN│ END      │ PSCRN    │ PG_DOWN  │ C_MUTE   │          │
             &trans     &kp N0     &kp N1     &kp N2     &kp N4     &kp KP_DOT   &msc SCRL_DOWN &kp END  &kp PSCRN  &kp PG_DN  &kp C_MUTE &trans
